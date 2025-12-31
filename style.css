@@ -1,0 +1,105 @@
+:root {
+    --gold: #d4af37;
+    --dark: #0c0c14;
+    --glass: rgba(255, 255, 255, 0.08);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: radial-gradient(circle at top, #1a1a2f, #000);
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-glow {
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle at center, rgba(212,175,55,0.15), transparent 60%);
+    z-index: -1;
+}
+
+.card {
+    background: var(--glass);
+    backdrop-filter: blur(20px);
+    padding: 60px 65px;
+    border-radius: 28px;
+    text-align: center;
+    box-shadow: 0 0 50px rgba(212, 175, 55, 0.25);
+    max-width: 540px;
+    animation: fadeUp 1.6s ease;
+}
+
+.year {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.2rem;
+    color: var(--gold);
+    letter-spacing: 4px;
+}
+
+.headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+    margin-top: 5px;
+}
+
+.wish {
+    margin-top: 22px;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    opacity: 0.95;
+    min-height: 70px;
+}
+
+.btn {
+    margin-top: 28px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(135deg, var(--gold), #f1c75b);
+    color: #000;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.from {
+    margin-top: 30px;
+    font-size: 1.05rem;
+}
+
+.from span {
+    color: var(--gold);
+    font-weight: 500;
+}
+
+footer {
+    position: absolute;
+    bottom: 18px;
+    font-size: 0.85rem;
+    opacity: 0.6;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
