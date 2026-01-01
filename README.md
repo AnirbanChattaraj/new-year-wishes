@@ -26,3 +26,5 @@ This project delivers meaningful good wishes with a refined UI and subtle JavaSc
 - 🚀 **Lightweight & Fast**
   - Pure HTML, CSS, and JavaScript
   - No frameworks, no dependencies
+
+- Author>>Anirban Chattaraj
