@@ -28,3 +28,5 @@ This project delivers meaningful good wishes with a refined UI and subtle JavaSc
   - No frameworks, no dependencies
 
 - Author>>Anirban Chattaraj
+
+- Preview>>https://anirbanchattaraj.github.io/new-year-wishes/
