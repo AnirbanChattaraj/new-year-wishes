@@ -1,4 +1,4 @@
-# 🎆 Happy New Year 2026 — from Anirban
+# 🎆 Happy New Year 2026 — from Anirban Chattaraj
 
 A **premium luxury New Year greeting web page** designed with elegance, restraint, and intention.  
 This project delivers meaningful good wishes with a refined UI and subtle JavaScript interaction — no clutter, no noise.
